@@ -1,0 +1,19 @@
+.drumkit { 
+	width: 50vw;
+	height: 50vh;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color:rgb(200,10, 10);
+	text-align: center;
+
+	display: grid;
+	grid-template-columns:  25% 25% 25% 25% ;
+	grid-template-rows: 50% 50%;
+
+}
+
+.drum {
+	background-color: white;
+	border: 1px solid black;
+}
